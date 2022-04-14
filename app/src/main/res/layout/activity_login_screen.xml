@@ -48,43 +48,11 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
-
-    <RadioGroup
-        android:id="@+id/radioGroup"
-        android:layout_width="350dp"
-        android:layout_height="55dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:weightSum="1"
         app:layout_constraintBottom_toTopOf="@+id/loginButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword">
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:fontFamily="@font/poppins"
-            android:text="Employee"
-            android:textSize="18dp" />
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:fontFamily="@font/poppins"
-            android:text="Company"
-            android:textSize="18dp" />
-
-    </RadioGroup>
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
 
     <Button
         android:id="@+id/loginButton"
@@ -93,12 +61,14 @@
         android:background="@drawable/custombutton"
         android:fontFamily="@font/poppins"
         android:text="Login"
+        android:textColor="@color/white"
+        android:textFontWeight="900"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/registerTxt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <TextView
         android:id="@+id/registerTxt"
@@ -106,6 +76,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
         android:text="Not Registered? Register Here"
+        android:textColor="@color/white"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

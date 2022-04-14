@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JobsInAndroid">
         <activity
+            android:name=".EditaccountScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SettingScreen"
+            android:exported="false" />
+        <activity
+            android:name=".AppliedScreen"
+            android:exported="false" />
+        <activity
             android:name=".AccountScreen"
             android:exported="false" />
         <activity

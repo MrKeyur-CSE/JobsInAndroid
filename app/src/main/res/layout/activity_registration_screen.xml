@@ -8,7 +8,7 @@
     tools:context=".RegistrationScreen">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/customeditfield"
@@ -19,14 +19,14 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintBottom_toTopOf="@+id/emailaddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/emailaddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/customeditfield"
@@ -37,14 +37,14 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextPhone"
+        app:layout_constraintBottom_toTopOf="@+id/phonenumber"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/name" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/phonenumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/customeditfield"
@@ -55,14 +55,14 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
+        app:layout_constraintBottom_toTopOf="@+id/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintTop_toBottomOf="@+id/emailaddress" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/customeditfield"
@@ -73,14 +73,14 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword3"
+        app:layout_constraintBottom_toTopOf="@+id/repassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+        app:layout_constraintTop_toBottomOf="@+id/phonenumber" />
 
     <EditText
-        android:id="@+id/editTextTextPassword3"
+        android:id="@+id/repassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/customeditfield"
@@ -91,14 +91,14 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/address"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/address"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/custommultiline"
@@ -114,7 +114,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3" />
+        app:layout_constraintTop_toBottomOf="@+id/repassword" />
 
     <Button
         android:id="@+id/registerBtn"
@@ -123,12 +123,14 @@
         android:background="@drawable/custombutton"
         android:fontFamily="@font/poppins"
         android:text="Register"
+        android:textColor="@color/white"
+        android:textFontWeight="900"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/loginTxt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+        app:layout_constraintTop_toBottomOf="@+id/address" />
 
     <TextView
         android:id="@+id/loginTxt"
@@ -136,6 +138,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
         android:text="Already Registered? Login here"
+        android:textColor="@color/white"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

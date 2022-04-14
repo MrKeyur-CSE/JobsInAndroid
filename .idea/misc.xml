@@ -3,17 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/customaccountscreenbutton.xml" value="0.1695" />
+        <entry key="app/src/main/res/drawable/customaccountsrnbtn.xml" value="0.1695" />
         <entry key="app/src/main/res/drawable/custombottomnavigation.xml" value="0.1695" />
         <entry key="app/src/main/res/drawable/custombutton.xml" value="0.1695" />
+        <entry key="app/src/main/res/drawable/customeditbtn.xml" value="0.1695" />
         <entry key="app/src/main/res/drawable/customeditfield.xml" value="0.1695" />
         <entry key="app/src/main/res/drawable/custommultiline.xml" value="0.1695" />
         <entry key="app/src/main/res/layout/activity_account_acreen.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_account_screen.xml" value="0.230584716796875" />
+        <entry key="app/src/main/res/layout/activity_account_screen.xml" value="0.17207774036335496" />
+        <entry key="app/src/main/res/layout/activity_applied_screen.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/activity_editaccount_screen.xml" value="0.24283882000855067" />
         <entry key="app/src/main/res/layout/activity_home_screen.xml" value="0.23310178431068979" />
-        <entry key="app/src/main/res/layout/activity_login_screen.xml" value="0.27007904052734377" />
+        <entry key="app/src/main/res/layout/activity_login_screen.xml" value="0.2676429502425655" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2125244140625" />
-        <entry key="app/src/main/res/layout/activity_registration_screen.xml" value="0.1460439046223958" />
+        <entry key="app/src/main/res/layout/activity_registration_screen.xml" value="0.17288258870442705" />
         <entry key="app/src/main/res/layout/activity_search_screen.xml" value="0.17613881429036454" />
+        <entry key="app/src/main/res/layout/activity_setting_screen.xml" value="0.23996734619140628" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.2829025268554688" />
         <entry key="app/src/main/res/menu/bottomnavmenu.xml" value="0.23976949055989583" />
       </map>
